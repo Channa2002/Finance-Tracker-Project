@@ -61,7 +61,7 @@ export default function Home() {
          <AddIncomeModal show={showAddIncomeModal} onClose={setShowAddIncomeModal} />
          <AddExpensesModal show={showAddExpenseModal} onClose={setShowAddExpenseModal}/>
 
-          <main className="container max-w-2xl px-6 mx-auto">
+          <main className="items-center justify-center min-h-screen max-w-4xl mx-auto px-4">
             <section className="py-3">
                   <small className="text-gray-400 text-md"> My Balance</small>
                   <h2 className="text-4xl font-bold">{currencyFormatter(balance)}</h2>
